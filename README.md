@@ -1,2 +1,13 @@
-getting-and-cleaning-data---course-project
+gettingandcleaningdata_course-project
 ==========================================
+
+The files "subject_train.txt", "subject_test.txt", "X_train.txt", "X_test.txt", "y_train.txt", "y_test.txt" were taken from the downloaded file and moved to a folder where they could be read into R. 
+
+The data was then binded by row to create one large data set for each of the subject, X, and y data sets.
+
+The activity labels were then read into R and were assigned to the corresponding activity numerical label in the y data set.
+
+To assign appropriate variable names to the X data set, the features.txt file was read in and used as the column names for the X data set.
+
+Titles "Subject" and "Activity" were assigned to the subject and y data sets, respectively.
+
