@@ -20,3 +20,5 @@ In the final step the merged data was converted to a data table in order to prep
 Variable names for the measurements not including the names for the Subject and Activity variables were stored into variables. 
 
 The tidy data set was created by subsetting the merged data set using the lapply function and taking the mean of the measurements by each Subject and Activity.
+
+In the final step the tidy data set was ordered first by Subject then by each Activity to produce the final result.
