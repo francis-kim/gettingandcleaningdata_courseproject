@@ -1,4 +1,4 @@
-gettingandcleaningdata_course-project
+gettingandcleaningdata_courseproject
 ==========================================
 The following are the steps taken to product the tidy data set submitted for this project.
 
