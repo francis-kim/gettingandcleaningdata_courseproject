@@ -18,3 +18,5 @@ Then the files were combined to create a merged data set named merged_dat.
 In the final step the merged data was converted to a data table in order to prepare for transforming the data set into a tidy data set. 
 
 Variable names for the measurements not including the names for the Subject and Activity variables were stored into variables. 
+
+The tidy data set was created by subsetting the merged data set using the lapply function and taking the mean of the measurements by each Subject and Activity.
