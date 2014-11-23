@@ -11,3 +11,10 @@ To assign appropriate variable names to the X data set, the features.txt file wa
 
 Titles "Subject" and "Activity" were assigned to the subject and y data sets, respectively.
 
+As required by the instructions the X data set was then truncated by subsetting using grepl() function to include only those measurements containing meaures of the mean and standard deviations.
+
+Then the files were combined to create a merged data set named merged_dat.
+
+In the final step the merged data was converted to a data table in order to prepare for transforming the data set into a tidy data set. 
+
+Variable names for the measurements not including the names for the Subject and Activity variables were stored into variables. 
