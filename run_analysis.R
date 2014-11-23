@@ -42,5 +42,5 @@ variables <- head( names( merged_dat), -2 )
 tidy_df <- merged_dat[, lapply(.SD, mean(x)), .SDcols=variables, by=list(Subject, Activity)]
 tidy_df <- tidy_df[ order( Subject, Activity ) ]
 
-# Write tidy data file as a text file
+# Write tidy data file as a text file 
 write.table(tidy_df, file="tidy_df.txt", row.names=FALSE)
